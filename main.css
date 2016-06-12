@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+body {
+  font-family: Oswald, Sans-serif;
+  background: #a3a3a3;
+  padding-top: 30px;
+}
+
+#top-bar {
+  background: #123123;
+  color: #000;
+  padding: 2px 0px 2px 0px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+#home {
+  text-align: center;
+}
+
+body a {
+  color: black;
+}
+
+hr {
+  border-top: 2px solid #000;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#about, #portfolio {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#portfolio {
+  text-align: center;
+}
+
+#projects div {
+  background: white;
+  padding: 100px;
+}
+
+#projects div:hover {
+  background: grey;
+}
+
+#contact button {
+  margin: 1px 0px 1px 0px;
+}
+
+#about img {
+  width: 75%;
+}
