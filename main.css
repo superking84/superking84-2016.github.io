@@ -4,11 +4,16 @@ body {
   font-family: Oswald, Sans-serif;
   background: #a3a3a3;
   padding-top: 30px;
+  text-align: center;
 }
 
-#top-bar {
+a {
+  color: black;
+}
+
+#section_nav {
   background: #123123;
-  color: #000;
+  color: #aaa;
   padding: 2px 0px 2px 0px;
   position: fixed;
   text-align: center;
@@ -17,12 +22,12 @@ body {
   z-index: 1;
 }
 
-#home {
-  text-align: center;
+#nav a {
+   color: #aaa;
 }
 
-body a {
-  color: black;
+#nav a:hover {
+   color: white;
 }
 
 hr {
@@ -36,23 +41,12 @@ hr {
   margin-right: 10%;
 }
 
-#portfolio {
-  text-align: center;
+button {
+   border-radius: 5px;
+   color: white;
+   background: grey;
 }
 
-#projects div {
-  background: white;
-  padding: 100px;
-}
-
-#projects div:hover {
-  background: grey;
-}
-
-#contact button {
-  margin: 1px 0px 1px 0px;
-}
-
-#about img {
-  width: 75%;
+.linkedinbtn {
+   background: darkblue;
 }
