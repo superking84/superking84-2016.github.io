@@ -11,34 +11,34 @@ a {
   color: black;
 }
 
-#section_nav {
+nav {
   background: #123123;
   color: #aaa;
   padding: 2px 0px 2px 0px;
   position: fixed;
-  text-align: center;
+  text-align: right;
   top: 0;
+  left: 0;
   width: 100%;
   z-index: 1;
 }
 
-#nav a {
+nav a {
    color: #aaa;
 }
 
-#nav a:hover {
+nav a:hover {
    color: white;
+}
+
+nav *:last-child {
+  padding-right: 10px;
 }
 
 hr {
   border-top: 2px solid #000;
   margin-left: 25%;
   margin-right: 25%;
-}
-
-#about, #portfolio {
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 button {
