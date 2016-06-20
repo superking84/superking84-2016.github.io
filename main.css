@@ -41,6 +41,11 @@ hr {
   margin-right: 25%;
 }
 
+section {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
 button {
    border-radius: 5px;
    color: white;
@@ -49,9 +54,4 @@ button {
 
 .linkedinbtn {
    background: darkblue;
-}
-
-section {
-  margin-left: 25%;
-  margin-right: 25%;
 }
