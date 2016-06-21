@@ -1,0 +1,55 @@
+#calc {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(45deg, white,silver);
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 100px;
+    height: 350px;
+    width: 250px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#io {
+    background: white;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-right: 5px;
+    padding-top: 0.1em;
+    height: 1.5em;
+    text-align: right;
+    width: 212px;
+    border: 1px solid black;
+}
+
+.row {
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.col-xs-3 {
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin-left: 2px;
+    margin-top: 2px;
+    cursor: pointer;
+}
+
+footer {
+    text-align: center;
+    margin:auto;
+    background: lightgrey;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 25%;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: underline;
+}
