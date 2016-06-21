@@ -52,7 +52,7 @@ var calc = (function() {
       inputInProcess = false;
     },
     addToQueue: function(ch) { 
-      if (queue.length >= 34)
+      if (queue.length >= 18)
         return;
       else if (validateInput(ch)) {
         if (queue[0] === "Invalid input")
