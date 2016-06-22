@@ -39,7 +39,7 @@ span {
   line-height: 3.5em;
 }
 
-a:hover, a:visited, a:link, a:active
+row a:hover, row a:visited, row a:link, row a:active
 {
     color: black;
     text-decoration: none;
