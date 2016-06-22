@@ -42,8 +42,6 @@ $(document).ready(function () {
           
             var resultBox = new ResultBox(articleURL, title, snippet);
             resultBox.draw("#results");
-            
-            // $("#main").css("margin-top","0");
           }
         }
         else {
@@ -62,7 +60,6 @@ $(document).ready(function () {
       $("#main").animate({"margin-top":"5%"}, {queue:false, duration:500});
       $("#searchbox").val("");
       $("#results").empty();
-    //   $("#main").css("margin-top","5%");
     }
   });
 });
