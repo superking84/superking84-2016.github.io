@@ -1,6 +1,7 @@
 #calc {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: linear-gradient(45deg, white,silver);
+    box-shadow: 15px 15px grey;
     border: 2px solid black;
     border-radius: 25px;
     margin: auto;
@@ -47,7 +48,7 @@ footer {
     border: 1px solid black;
     border-radius: 5px;
     width: 25%;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 a {
