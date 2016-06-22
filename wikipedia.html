@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Wikipedia Search App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="wikipedia.css" />
+    <script type="text/javascript" src="wikipedia.js"></script>
+</head>
+
+<body>
+    <nav id="sections">
+        <a href="index.html">Home</a> --
+        <a href="about.html">About Me</a> --
+        <a href="projects.html">Projects</a> --
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <div id="main">
+        <p>
+        <a href="http://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here to search for a random article</a>
+        </p>
+        <p>
+        <form>
+            <input id="searchbox" placeholder="Enter your search term..." type="text">
+        </form>
+        </p>
+        <p>
+        Click the icon above to search a particular topic (hit Esc to clear results)
+        </p>
+    </div>
+    <div id="results"></div>
+</body>
