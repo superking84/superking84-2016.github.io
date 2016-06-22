@@ -3,7 +3,7 @@ var calc = (function() {
   var inputInProcess = false; // for handling equations in process vs answers
   var operatorRE = new RegExp(/[\/*+\-]/);
   var digitRE = new RegExp(/[0-9]/);
-  var queue = [0];
+  var queue = [0]; // initial display
   var keyCodes = {
     47: "/", 42: "*", 45: "-", 43: "+",
     48: "0", 49: "1", 50: "2", 51: "3", 52: "4",
@@ -44,7 +44,7 @@ var calc = (function() {
     calculate: function() {
       var equation = queue.join('');
       try {
-        var answer = eval(equation);
+        var answer = this.limitPrecision(eval(equation), 4);
         queue = answer.toString().split('');
       } catch(err) {
         queue = ["Invalid input"];
@@ -52,7 +52,7 @@ var calc = (function() {
       inputInProcess = false;
     },
     addToQueue: function(ch) { 
-      if (queue.length >= 18)
+      if (queue.length >= 23)
         return;
       else if (validateInput(ch)) {
         if (queue[0] === "Invalid input")
@@ -107,12 +107,15 @@ var calc = (function() {
       queue = answer.toString().split('');
       inputInProcess = false;
     },
+    limitPrecision: function(num, places) {
+      return Math.round(num * Math.pow(10, places)) / Math.pow(10, places);
+    },
     updateDisplay: function() {
       var ioBox = document.getElementById("io");
       ioBox.innerHTML = queue.join('');
-      if (queue.length > 29)
+      if (queue.length >= 20)
         ioBox.style.fontSize = "0.8em";
-      else if (queue.length > 25)
+      else if (queue.length > 17)
         ioBox.style.fontSize = "0.9em";
       else
         ioBox.style.fontSize = "1em";
