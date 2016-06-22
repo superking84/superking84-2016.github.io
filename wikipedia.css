@@ -1,63 +1,58 @@
 body {
-  background: #2F4F4F;
-  font-family: Oswald;
+    background: #2F4F4F;
+    font-family: Oswald;
 }
 
 #main {
-  padding-top: 10%;
-  padding-right: 25%;
-  padding-left: 25%;
-  width: 50%;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
 }
 
 #main * {
-  background: #ddd;
-  margin: auto;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  text-align: center;
-  width: 50%;
+    background: #ddd;
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    width: 50%;
 }
 
 a {
-  color: black;
-  text-decoration: none;
-}
-
-#search:hover {
-  cursor: pointer;
+    color: black;
+    text-decoration: none;
 }
 
 #searchbox {
-  border: 4px solid black;
-  border-radius: 20px;
-  width: 75%;
+    border: 4px solid black;
+    border-radius: 20px;
+    width: 75%;
 }
 
 #searchbox:focus {
-  outline: none;
+    outline: none;
 }
 
 .resultBox {
-  background: #aaa;
-  border: 3px solid black;
-  cursor: pointer;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-left: 10px;
-  padding-right: 10px;
-  margin: auto;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  text-align: center;
-  width: 70%;
+    background: #aaa;
+    border: 3px solid black;
+    cursor: pointer;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 70%;
 }
 
 .resultBox:hover {
-  background: grey;
-  border: 3px solid white;
+    background: grey;
+    border: 3px solid white;
 }
 
 .title {
-  font-size: 150%;
+    font-size: 150%;
 }
