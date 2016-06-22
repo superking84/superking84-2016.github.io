@@ -29,7 +29,11 @@ nav {
 }
 
 nav a {
-   color: #aaa;
+  color: #aaa;
+}
+
+nav a:hover {
+  text-decoration: underline;
 }
 
 nav *:last-child {
