@@ -34,6 +34,7 @@ $(document).ready(function () {
           $("#results").empty();
         
           for (var i = 0; i < results.length; i++) {
+            $("#main").animate({"margin-top":"0"}, {queue:false, duration:500});
             var title = results[i].title;
             var parsedTitle = title.replace(/ /g, "_");
             var articleURL = baseArticleURL + parsedTitle;
@@ -41,7 +42,8 @@ $(document).ready(function () {
           
             var resultBox = new ResultBox(articleURL, title, snippet);
             resultBox.draw("#results");
-            $("#main").css("padding-top","0");
+            
+            // $("#main").css("margin-top","0");
           }
         }
         else {
@@ -57,9 +59,10 @@ $(document).ready(function () {
   
   $("#searchbox").keyup(function(e) {
     if (e.keyCode === 27) {
+      $("#main").animate({"margin-top":"5%"}, {queue:false, duration:500});
       $("#searchbox").val("");
       $("#results").empty();
-      $("#main").css("padding-top","10%");
+    //   $("#main").css("margin-top","5%");
     }
   });
 });
