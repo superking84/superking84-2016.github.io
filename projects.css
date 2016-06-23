@@ -4,11 +4,15 @@ ul {
 
 section {
     margin: 0 0 0 0;
+    padding-top: 5%;
 }
 
 table {
+    background: white;
     width: 100%;
+    line-height: 2em;
 }
+
 
 table, th, td {
     border: 5px solid black;
