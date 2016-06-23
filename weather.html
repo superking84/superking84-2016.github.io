@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="main.css" />
+        <link rel="stylesheet" href="weather.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script type="text/javascript" src="weather.js"></script>
+    </head>
+
+    <body>
+        <nav id="sections">
+            <a href="index.html">Home</a> --
+            <a href="about.html">About Me</a> --
+            <a href="projects.html">Projects</a> --
+            <a href="contact.html">Contact Me</a>
+        </nav>
+        <div id="main">
+            <h1>
+                freeCodeCamp Weather App
+            </h1>
+            <div>
+                Current Conditions for <span id="city_name"></span>:
+            </div>
+            <div>
+                Current temperature is <span id="temp"></span>.
+            </div>
+            <div>
+                You have <span id="condition"></span> in your area at the moment.
+            </div>
+            <img id="icon">
+            </img>
+        </div>
+    </body>
+</html>
