@@ -7,6 +7,7 @@ table {
     background: whitesmoke;
     width: 100%;
     line-height: 2em;
+    box-shadow: 2px 3px darkgrey;
 }
 
 table a {
@@ -16,6 +17,7 @@ table a {
 table a:hover {
     font-weight: bold;
     color: black;
+    text-shadow: 2px 1px darkgrey;
 }
 
 table, th, td {
