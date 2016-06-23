@@ -1,3 +1,17 @@
 ul {
     list-style: none;
 }
+
+section {
+    margin: 0 0 0 0;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
