@@ -10,18 +10,14 @@ table {
     box-shadow: 2px 3px darkgrey;
 }
 
-table a {
-    text-decoration: none;
-}
-
-table a:hover {
-    font-weight: bold;
-    color: black;
-    text-shadow: 2px 1px darkgrey;
-}
-
 table, th, td {
     border: 5px solid black;
     border-collapse: collapse;
     margin: auto;
+}
+
+tr:not(:first-child):hover {
+    color: white;
+    cursor: pointer;
+    background-color: steelblue;
 }
